@@ -6,7 +6,7 @@ function checkPalindrome(N, str) {
        bag=bag+str[i];
     }
 
-    if(bag!==str){
+    if(bag===str){
         console.log("Yes");
     }
     else{
