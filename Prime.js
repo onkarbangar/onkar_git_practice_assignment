@@ -4,7 +4,7 @@ function identifyPrime(num) {
         if (num%i===0){
             x++;
         } 
-        }if (x==0){
+        }if (x===2){
             console.log("Yes");
             }
         else{console.log("No");
